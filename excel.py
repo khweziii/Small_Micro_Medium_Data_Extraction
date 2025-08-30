@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 ##---------------------------- Put csv files into a single Excel file ---------------------------------##
-csv_folder = "/Users/khwezikgalema/PycharmProjects/SMMEs_Data_Extraction"  # Replace with the actual path
+csv_folder = "/Users/khwezikgalema/PycharmProjects/SMMEs_Data_Extraction"  
 excel_file = "smme_data.xlsx"
 
 with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
